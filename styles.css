@@ -1,0 +1,58 @@
+header {
+    /* height: 70px;
+    background-color: black;
+    width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #484747; /* Header border */
+    background-color: #101010; /* Optional background color */
+  }
+
+#logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 70px;
+}
+
+#heading {
+    font-size: 100px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 30px; /* Space between icons */
+}
+
+/* #cart {
+    position: relative;
+    left: 650px;
+    margin:auto; 
+    display: flex;
+    margin-top: -50px; 
+
+
+} */
+
+body {
+    background: whitesmoke;
+}
+
+/* Icon styling */
+.icons img {
+    height: 30px; /* Adjust icon size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.icons img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+#user {
+    width: 38px;
+    height: 38px;
+}
